@@ -32,7 +32,6 @@ class BLIP2():
 
 
 if __name__ == '__main__':
-    import ipdb;ipdb.set_trace()
     parser = argparse.ArgumentParser()
     parser.add_argument('path', type=str, help="path to image (png, jpeg, etc.)")
     parser.add_argument('--model', default='u2net', type=str, help="rembg model, see https://github.com/danielgatis/rembg#models")
